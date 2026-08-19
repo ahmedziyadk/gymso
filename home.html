@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .first{
+            background-image: url(young-sportive-man-is-doing-exercises-his-back-dark-gym-club.jpg);
+            background-size: cover;
+            padding-bottom: 250px;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .links{
+            display: flex;
+            margin: auto;
+            gap: 80px;
+            margin-right: 50px;
+            color: white;
+            
+        }
+
+        .links a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .links a:hover{
+            color: orange;
+        }
+
+        .navbar h1{
+            margin-left: 30px;
+            color: rgb(255, 115, 0);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .home{
+            color: white;
+            text-align: center;
+            margin-top: 140px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .learnmore{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .learnmore button{
+            background-color: rgba(240, 248, 255, 0);
+            width: 120px;
+            height: 40px;
+            border: 1px solid orange;
+            color: orange;
+            margin-left: 10px;
+        }
+
+        .learnmore button:hover{
+            background-color: rgb(208, 88, 2);
+            color: black;
+            border: none;
+        }
+
+        .sctionabout{
+            background-color: black;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            
+        }
+
+        .member{
+            color: white;
+            border-right:1px solid white ;
+            width: 50%;
+            
+        }
+
+        .member button{
+            width: 500px;
+            height: 30px;
+            background-color: rgb(223, 122, 0);
+            border: none;
+        }
+
+        .hours{
+            color: white;
+            padding-left: 50px;
+        }
+
+        .about{
+            display: flex;
+            justify-content: center;
+        }
+
+        .member button:hover{
+            background-color: black;
+            border: 1px solid white;
+            color: white;
+        }
+
+
+        .intro{
+            background-color: rgb(153, 153, 153);
+            padding-bottom: 40px;
+            padding-top: 40px;
+            display: flex;
+        }
+
+        .intro-text{
+            width: 500px;
+            padding-left: 40px;
+            padding-right: 300px;
+        }
+
+        .intro-image img{
+            width: 150px;
+            height: 150px;
+            
+        }
+
+        .intro-image{
+            display: flex;
+        
+        }
+
+        .img2{
+            padding-left: 90px;
+        }
+
+        .img-name1,.img-name2{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            background-color: white;
+            margin-top: -10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+
+        .intro h1{
+            color: white;
+        }
+
+        .classes img{
+            width: 300px;
+            height: 200px;
+        }
+
+        .training-classes{
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+        }
+
+        .T-img1,.T-img2,.T-img3{
+            width: 300px;
+            background-color:white;
+            padding: 10px;
+        }
+
+        .classes{
+            background-color: rgb(254, 248, 239);
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .price{
+            background-color: red;
+            border-radius: 100%;
+            width: 10%;
+            height: 7%;
+            padding: 10px;
+            margin-left: 80%;
+            margin-top: -10%;
+        }
+
+
+        .T-head{
+            text-align: center;
+        }
+
+        .T-head h3{
+            color: rgba(0, 0, 0, 0.441);
+        }
+
+
+
+
+        table,th,td{
+        border: 1px solid rgba(255, 255, 255, 0.514);
+        border-collapse: collapse;
+        margin: auto;
+        padding: 9px;
+    }
+
+    td{
+        height: 30px;
+        width: 150px;
+        color:white;
+    }
+
+
+    th{
+        height: 40px;
+        background-color: orange;
+    }
+
+    td:nth-child(1){
+        background-color: orange;
+        width: 160px;
+    }
+
+    .shedule-table{
+        background-color: black;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .table-head{
+        color: white;
+        text-align: center;
+    }
+
+    .table-head h3{
+        color: rgba(255, 255, 255, 0.523);
+    }
+
+
+    .form input,textarea{
+        display: block;
+        width:60%;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .form button{
+        width: 60%;
+        background-color: orange;
+        height: 40px;
+        border: none;
+    }
+
+    .form{
+        padding: 60px;
+        
+        
+    }
+
+    .formm h1{
+        padding-left:65px;
+        margin-bottom: -30px;
+    }
+
+    .reach-us{
+        padding-top: 40px;
+        display: flex;
+        
+    }
+
+    .formm{
+        width: 60%;
+    }
+
+    .map iframe{
+        width: 400px;
+        height: 250px;
+        
+    }
+
+    .map{
+        width: 40%;
+        padding-left:30px ;
+        
+    }
+
+
+
+        
+
+
+    
+    </style>
+    <script src="https://kit.fontawesome.com/119bbd7755.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="first" id="1">
+<div class="navbar">
+    <h1>Gymso Fitness</h1>
+    <div class="links">
+        <a href="#1">Home</a>
+        <a href="#2">About</a>
+        <a href="#3">Schedule</a>
+        <a href="#4">Contact</a>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+</div>
+
+<div class="home">
+    <h1>Upgrade Your Body at Gymso Fitness</h1>
+    <div class="learnmore"><h3>Get Started</h3>
+    <button>Learn More</button></div>
+</div>
+</section>
+
+<section class="sctionabout" id="2">
+ <div class="about">
+    <div class="member">
+    <h2>New to Gymso?</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem nisi delectus corrupti!</p>
+    <button>Became a Member Today</button>
+    </div>
+    
+    <div class="hours">
+        <h2>Working Hours</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="intro">
+    <div class="intro-text">
+    <h1>Hello We Are Gymso</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem inventore laborum in laboriosam. Vero ducimus modi quos, corrupti reprehenderit cum.</p>
+    </div>
+
+    <div class="intro-image">
+        <div class="img2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUu82PTEG_qbOMLWGiGPwvgA2yRiZRfvrxISd-Qs1_Hg&s" alt="">
+        <div class="img-name1">
+            <p>Mary</p>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        </div>
+
+
+        <div class="img2">
+            <img src="https://media.post.rvohealth.io/wp-content/uploads/2025/03/Arnold-Schwarzenegger-732x549-thumbnail.jpg">
+            <div class="img-name2">
+                <p>Arnold</p>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<section class="classes">
+   <div class="T-head">
+    <h3>Get a Perfect Body</h3>
+    <h1>Our Training Classes</h1>
+   </div>
+
+    <div class="training-classes">
+        <div class="T-img1">
+            <img src="3d-gym-equipment.jpg" alt="">
+            <h2>Yoga</h2>
+            <p>Trained By Bella</p>
+            <p class="price">$50</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur deleniti alias illo, nisi sint architecto unde asperiores necessitatibus? Officia.</p>        
+        </div>
+    
+
+        <div class="T-img2">
+            <img src="3d-gym-equipment.jpg" alt="">
+            <h2>Yoga</h2>
+            <p>Trained By Bella</p>
+            <p class="price">$50</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur deleniti alias illo, nisi sint architecto unde asperiores necessitatibus? Officia.</p>   
+        </div>
+
+
+        <div class="T-img3">
+          <img src="3d-gym-equipment.jpg" alt="">
+          <h2>Yoga</h2>
+          <p>Trained By Bella</p>
+          <p class="price">$50</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur deleniti alias illo, nisi sint architecto unde asperiores necessitatibus? Officia.</p>   
+        </div>
+    </div>
+</section>
+
+
+<section class="shedule-table" id="3">
+    <div class="table-head">
+     <h3>This is the Shedule</h3>
+     <h2>WORKING CLASSES</h2>
+    </div>
+    <table>
+        <tr>
+            <th>🗓️</th>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+        </tr>
+        <tr>
+            <td>7.00 AM</td>
+            <td>Cardio</td>
+            <td>Power Fitness</td>
+            <td></td>
+            <td></td>
+            <td>Yoga Section</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>4.00PM</td>
+            <td></td>
+            <td></td>
+            <td>Cardio</td>
+            <td></td>
+            <td>Yoga Section</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>8.00 AM</td>
+            <td></td>
+            <td>Cardio</td>
+            <td>Power Fitness</td>
+            <td></td>
+            <td></td>
+            <td>Yoga Section</td>
+        </tr>
+
+
+        <tr>
+            <td>11.00 AM</td>
+            <td>Cardio</td>
+            <td>Power Fitness</td>
+            <td></td>
+            <td>Yoga Section</td>
+            <td></td>
+            <td>Aerobic</td>
+        </tr>
+    </table>
+</section>
+
+
+
+<section class="reach-us" id="4">
+    <div class="formm">
+        <h1>Feel Free to Ask Anything</h1>
+
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <textarea placeholder="Messsage"></textarea>
+                <button>Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="map">
+        <h1>Locate us on Google</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga earum nulla modi eligendi non magni reprehenderit ipsa. Soluta, excepturi!</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250436.8303515577!2d75.64599505718108!3d11.255858238816588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1787118816862!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+</section>
+</body>
+</html>
